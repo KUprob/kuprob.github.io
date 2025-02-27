@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KU Probability Reading Seminar</title>
+    <title>Seminar Series</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+        }
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid #000;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        main {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        h1, h2 {
+            font-weight: normal;
+        }
+        ul {
+            padding: 0;
+        }
+        ul li {
+            list-style-type: none;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
 </head>
 <body>
-    <h1>KU Probability Reading Seminar</h1>
-    <p>This is the website for the planned KU probability reading seminar.</p>
+    <header>
+        <h1>Seminar Series</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="all-events.html">All Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <ul id="future-events"></ul>
+        </section>
+        
+        <section id="past-events">
+            <h2>Past Events</h2>
+            <ul id="past-events-list"></ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
 </body>
 </html>
