@@ -53,7 +53,8 @@
     <script>
         function toggleAbstract(id) {
             var abstract = document.getElementById(id);
-            if (abstract.style.display === "none") {
+            var currentDisplay = window.getComputedStyle(abstract).display;
+            if (currentDisplay === "none") {
                 abstract.style.display = "block";
             } else {
                 abstract.style.display = "none";
