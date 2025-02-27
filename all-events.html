@@ -42,8 +42,24 @@
             list-style-type: none;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .abstract {
+            display: none;
+            font-size: 0.9em;
+            margin-top: 5px;
         }
     </style>
+    <script>
+        function toggleAbstract(id) {
+            var abstract = document.getElementById(id);
+            if (abstract.style.display === "none") {
+                abstract.style.display = "block";
+            } else {
+                abstract.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -59,13 +75,27 @@
         <section id="all-events">
             <h2>All Events</h2>
             <ul>
-                <li>Event 1 - 2025-03-15 - Room 101</li>
-                <li>Event 2 - 2025-04-10 - Room 202</li>
-                <li>Event 3 - 2025-05-05 - Room 303</li>
-                <li>Event 4 - 2025-02-20 - Room 404</li>
-                <li>Event 5 - 2025-01-15 - Room 505</li>
-                <li>Event 6 - 2024-12-10 - Room 606</li>
-                <li>Event 7 - 2024-11-05 - Room 707</li>
+                <li onclick="toggleAbstract('abstract1')">Event 1 - 2025-03-15 - Room 101
+                    <div id="abstract1" class="abstract">Abstract: Discussion on advanced probability theory.</div>
+                </li>
+                <li onclick="toggleAbstract('abstract2')">Event 2 - 2025-04-10 - Room 202
+                    <div id="abstract2" class="abstract">Abstract: Exploring AI applications in mathematics.</div>
+                </li>
+                <li onclick="toggleAbstract('abstract3')">Event 3 - 2025-05-05 - Room 303
+                    <div id="abstract3" class="abstract">Abstract: Introduction to quantum computing.</div>
+                </li>
+                <li onclick="toggleAbstract('abstract4')">Event 4 - 2025-02-20 - Room 404
+                    <div id="abstract4" class="abstract">Abstract: Latest trends in machine learning.</div>
+                </li>
+                <li onclick="toggleAbstract('abstract5')">Event 5 - 2025-01-15 - Room 505
+                    <div id="abstract5" class="abstract">Abstract: Analyzing stochastic processes.</div>
+                </li>
+                <li onclick="toggleAbstract('abstract6')">Event 6 - 2024-12-10 - Room 606
+                    <div id="abstract6" class="abstract">Abstract: Advances in graph theory.</div>
+                </li>
+                <li onclick="toggleAbstract('abstract7')">Event 7 - 2024-11-05 - Room 707
+                    <div id="abstract7" class="abstract">Abstract: Applications of topology and geometry.</div>
+                </li>
             </ul>
         </section>
     </main>
