@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ul.innerHTML = "";
         eventList.forEach((event, index) => {
             const li = document.createElement("li");
-            const abstractId = `${elementId}-abstract${index + 1}`; // Unique ID
+            const abstractId = `${elementId}-abstract${index + 1}`; // Unique ID for each abstract
             li.textContent = `${event.title} - ${event.date} - ${event.room}`;
             li.setAttribute("onclick", `toggleAbstract('${abstractId}')`);
             const abstractDiv = document.createElement("div");
