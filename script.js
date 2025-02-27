@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     const events = [
-        { title: "Seminar on Probability", date: "2025-01-10", abstract: "Abstract: Discussion on advanced probability theory.", room: "Room 101" },
-        { title: "AI in Mathematics", date: "2025-02-05", abstract: "Abstract: Exploring AI applications in mathematics.", room: "Room 202" },
-        { title: "Quantum Computing Basics", date: "2025-03-12", abstract: "Abstract: Introduction to quantum computing.", room: "Room 303" },
-        { title: "Machine Learning Advances", date: "2025-04-20", abstract: "Abstract: Latest trends in machine learning.", room: "Room 404" },
-        { title: "Stochastic Processes", date: "2025-05-15", abstract: "Abstract: Analyzing stochastic processes.", room: "Room 505" },
-        { title: "Graph Theory Seminar", date: "2024-11-30", abstract: "Abstract: Advances in graph theory.", room: "Room 606" },
-        { title: "Topology and Geometry", date: "2024-10-25", abstract: "Abstract: Applications of topology and geometry.", room: "Room 707" }
+        { title: "NA", date: "2025-01-10", abstract: "Abstract: NA", room: "Room 101" },
+        { title: "NA", date: "2025-02-05", abstract: "Abstract: NA", room: "Room 202" },
+        { title: "TBA", date: "2025-03-12", abstract: "Abstract: NA", room: "Room 303" },
+        { title: "TBA", date: "2025-04-20", abstract: "Abstract: NA", room: "Room 404" },
+        { title: "TBA", date: "2025-05-15", abstract: "Abstract: NA", room: "Room 505" },
+        { title: "TBA", date: "2024-11-30", abstract: "Abstract: NA", room: "Room 606" },
+        { title: "TBA", date: "2024-10-25", abstract: "Abstract: NA", room: "Room 707" }
     ];
 
     const now = new Date();
