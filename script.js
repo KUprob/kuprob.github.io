@@ -2,13 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("script.js loaded and DOMContentLoaded fired");
 
     const events = [
-        { title: "NA", date: "2025-01-10", abstract: "Abstract: NA", room: "Room 101", time: "2:00 PM" },
-        { title: "NA", date: "2025-02-05", abstract: "Abstract: NA", room: "Room 202", time: "3:30 PM" },
-        { title: "TBA", date: "2025-03-12", abstract: "Abstract: NA", room: "Room 303", time: "10:00 AM" },
-        { title: "TBA", date: "2025-04-20", abstract: "Abstract: NA", room: "Room 404", time: "1:00 PM" },
-        { title: "TBA", date: "2025-05-15", abstract: "Abstract: NA", room: "Room 505", time: "4:00 PM" },
-        { title: "TBA", date: "2024-11-30", abstract: "Abstract: NA", room: "Room 606", time: "11:00 AM" },
-        { title: "TBA", date: "2024-10-25", abstract: "Abstract: NA", room: "Room 707", time: "2:30 PM" }
+        { title: "NA", date: "2025-03-03", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-03-10", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
     ];
 
     const now = new Date();
