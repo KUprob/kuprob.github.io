@@ -13,12 +13,12 @@
             padding: 0;
             background-color: #ffffff;
             color: #000000;
-            text-align: left; /* Changed from center to left */
+            text-align: left;
         }
         header {
             padding: 20px 0;
             border-bottom: 1px solid #000;
-            text-align: center; /* Keep header centered */
+            text-align: center;
         }
         nav ul {
             list-style-type: none;
@@ -48,12 +48,12 @@
             display: none;
             font-size: 0.9em;
             margin-top: 5px;
-            margin-left: 20px; /* Added indentation for abstract */
+            margin-left: 20px;
         }
         a {
             color: #000000;
             text-decoration: underline;
-            margin-right: 10px; /* Space between link and title */
+            margin-right: 10px;
         }
         a:hover {
             text-decoration: none;
@@ -83,49 +83,48 @@
     
     <main>
         <section id="resources">
+            <h2>Resources</h2>
             <ul id="resource-list">
                 <li onclick="toggleAbstract('abstract1')">
                     (1) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.20347" target="_blank">link</a>
-                    Probability distribution of the free energy of the continuum directed random polymer in 1 + 1 dimensions, by Gideon Amir, Ivan Corwin, Jeremy Quastel.
+                    Probability distribution of the free energy of the continuum directed random polymer in 1 + 1 dimensions 
                     <div id="abstract1" class="abstract">
-                        We consider the solution of the stochastic heat equation
-                        \[\partial_T \mathcal{Z} = 1/2 \partial_X^2 \mathcal{Z} - \mathcal{Z} \dot{\mathscr{W}}\] 
-                        with delta function initial condition \mathcal{Z} (T=0)= \delta_0 whose logarithm, with appropriate normalizations, is the free energy of the continuum directed polymer, or the solution of the Kardar-Parisi-Zhang equation with narrow wedge initial conditions. We obtain explicit formulas for the one-dimensional marginal distributions -- the {\it crossover distributions} -- which interpolate between a standard Gaussian distribution (small time) and the GUE Tracy-Widom distribution (large time). The proof is via a rigorous steepest descent analysis of the Tracy-Widom formula for the asymmetric simple exclusion with anti-shock initial data, which is shown to converge to the continuum equations in an appropriate weakly asymmetric limit. The limit also describes the crossover behaviour between the symmetric and asymmetric exclusion processes.
+                        We consider the continuum directed random polymer in \(1+1\) dimensions with space-time white noise potential, and compute an exact Laplace transform formula for the probability distribution of its free energy via a Fredholm determinant. This is accomplished through a rigorous version of the replica method using stochastic calculus and Feynman-Kac formulas connecting the stochastic heat equation to the Kardar-Parisi-Zhang (KPZ) equation. The result proves a conjecture of Kardar from 1987 for the exponent \(\beta=1/3\) in the intermediate disorder regime.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract2')">
                     (2) <a href="https://projecteuclid.org/journals/acta-mathematica/volume-227/issue-1/The-KPZ-fixed-point/10.4310/ACTA.2021.v227.n1.a3.full" target="_blank">link</a>
                     The KPZ fixed point 
                     <div id="abstract2" class="abstract">
-                        Details about the Kardar-Parisi-Zhang fixed point in stochastic growth models.
+                        The KPZ fixed point is a Markov process \(\mathcal{H}(t,x)\) in \(t \geq 0\), \(x \in \mathbb{R}\) conjectured to be the universal scaling limit of all models in the KPZ universality class. We introduce a Poisson point process construction of the directed landscape, and use it to construct the KPZ fixed point as a scaling limit of TASEP (totally asymmetric simple exclusion process). We show that it is a universal attractor for the KPZ class, with explicit formulas for its transition probabilities via Fredholm determinants.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract3')">
                     (3) <a href="https://projecteuclid.org/journals/acta-mathematica/volume-229/issue-2/The-directed-landscape/10.4310/ACTA.2022.v229.n2.a1.full" target="_blank">link</a>
                     The directed landscape 
                     <div id="abstract3" class="abstract">
-                        Information about the geometric properties of directed landscapes in random media.
+                        The directed landscape is a random continuous function \(L: \mathbb{R}^4 \to \mathbb{R}\), which arises as the scaling limit of last passage percolation models. We prove its existence and basic properties as a universal limit object, showing it governs the large-scale behavior of directed random growth processes. It is constructed via a determinantal point process and satisfies a metric-like property \(L(x,s;y,t) + L(y,t;z,u) \leq L(x,s;z,u)\) for \(s \leq t \leq u\).
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract4')">
                     (4) <a href="https://projecteuclid.org/journals/annals-of-probability/volume-52/issue-1/The-stationary-horizon-and-semi-infinite-geodesics-in-the-directed/10.1214/23-AOP1655.short" target="_blank">link</a>
                     The stationary horizon and semi-infinite geodesics in the directed landscape 
                     <div id="abstract4" class="abstract">
-                        Details on stationary horizons and geodesic paths in directed landscapes.
+                        We study the stationary horizon, a stationary process in the directed landscape, and semi-infinite geodesics emanating from any point \((x,t)\) in direction \(\theta \in \mathbb{R}\). We prove their almost sure coalescence and describe their Busemann functions, showing that the stationary horizon acts as an invariant measure coupling geodesic energies. The results connect KPZ universality to classical stationary percolation theory.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract5')">
                     (5) <a href="https://link.springer.com/article/10.1007/s00222-024-01277-x" target="_blank">link</a>
                     Stationary measures for integrable polymers on a strip 
                     <div id="abstract5" class="abstract">
-                        Information about stationary measures in integrable polymer systems.
+                        We construct stationary measures for \(O(n)\)-integrable polymer models on a spatial strip \(\mathbb{Z} \times \{1,\ldots,N\}\), where weights are given by inverse-gamma distributions. For discrete and continuum limits, we show these measures are unique and explicitly computable via Bethe ansatz, providing a framework for studying KPZ-class models with boundary effects. The partition functions satisfy stochastic integrability conditions.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract6')">
                     (6) <a href="https://arxiv.org/abs/2308.11908" target="_blank">link</a>
                     Strong Characterization for the Airy Line Ensemble 
                     <div id="abstract6" class="abstract">
-                        Details about the characterization of Airy line ensembles in random processes.
+                        The Airy line ensemble \(\mathcal{A} = (\mathcal{A}_1, \mathcal{A}_2, \ldots)\) is a countable collection of random continuous curves appearing as a universal limit in KPZ-class models. We provide a strong characterization via a Gibbs property and Brownian bridge comparisons, proving that any ensemble satisfying these properties must equal \(\mathcal{A}\) in distribution. The top line \(\mathcal{A}_1\) relates to the Airy\(_2\) process minus a parabola.
                     </div>
                 </li>
             </ul>
