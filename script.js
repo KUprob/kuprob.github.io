@@ -33,6 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    // Populate index.html
     renderEvents(futureEvents, "future-events");
     renderEvents(pastEvents, "past-events-list");
+
+    // Populate all-events.html with all events
+    renderEvents(events, "all-events-list");
 });
