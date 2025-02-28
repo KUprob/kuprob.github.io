@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("script.js loaded and DOMContentLoaded fired");
 
     const events = [
-        { title: "NA", date: "2025-03-03", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-03-10", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-03-24", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-03-31", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-04-07", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-04-14", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-04-21", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-04-28", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
-        { title: "NA", date: "2025-05-05", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "Planning", date: "2025-03-03", abstract: "We will make the plan for the semester.", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-03-10", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-03-24", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-03-31", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-07", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-14", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-21", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-28", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "NA", date: "2025-05-05", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
     ];
 
     const now = new Date();
