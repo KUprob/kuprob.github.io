@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const events = [
         { title: "NA", date: "2025-03-03", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
         { title: "NA", date: "2025-03-10", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-03-24", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-03-31", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
     ];
 
     const now = new Date();
