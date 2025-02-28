@@ -73,12 +73,25 @@
     </header>
     
     <main>
-       <section id="all-events">
-        <h2>All Events</h2>
-        <ul id="all-events-list"></ul> 
-       </section>
+        <section id="all-events">
+            <h2>All Events</h2>
+            <ul id="all-events-list">
+                <!-- Events will be populated by script.js -->
+                <!-- Fallback message if script fails -->
+                <li id="fallback" style="display: none;">No events loaded. Check if script.js is working.</li>
+            </ul>
+        </section>
     </main>
     
     <script src="script.js"></script>
+    <script>
+        // Simple check to show fallback if no events are loaded
+        window.addEventListener("load", function() {
+            const eventList = document.getElementById("all-events-list");
+            if (eventList.children.length === 1 && eventList.children[0].id === "fallback") {
+                document.getElementById("fallback").style.display = "block";
+            }
+        });
+    </script>
 </body>
 </html>
