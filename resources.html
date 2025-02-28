@@ -42,7 +42,6 @@
             list-style-type: none;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
-            cursor: pointer;
         }
         .abstract {
             display: none;
@@ -87,44 +86,48 @@
             <ul id="main-resource-list">
                 <li onclick="toggleAbstract('abstract1')">
                     (1) <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.20347" target="_blank">link</a>
-                    Probability distribution of the free energy of the continuum directed random polymer in 1 + 1 dimensions 
+                    Probability distribution of the free energy of the continuum directed random polymer in 1 + 1 dimensions, G. Amir, I. Corwin, and J. Quastel
                     <div id="abstract1" class="abstract">
                         We consider the solution of the stochastic heat equation \[\partial_T \mathcal{Z} = 1/2 \partial_X^2 \mathcal{Z} - \mathcal{Z} \dot{\mathscr{W}}\] with delta function initial condition \(\mathcal{Z} (T=0)= \delta_0\) whose logarithm, with appropriate normalizations, is the free energy of the continuum directed polymer, or the solution of the Kardar-Parisi-Zhang equation with narrow wedge initial conditions. We obtain explicit formulas for the one-dimensional marginal distributions -- the {\it crossover distributions} -- which interpolate between a standard Gaussian distribution (small time) and the GUE Tracy-Widom distribution (large time). The proof is via a rigorous steepest descent analysis of the Tracy-Widom formula for the asymmetric simple exclusion with anti-shock initial data, which is shown to converge to the continuum equations in an appropriate weakly asymmetric limit. The limit also describes the crossover behaviour between the symmetric and asymmetric exclusion processes.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract2')">
                     (2) <a href="https://projecteuclid.org/journals/acta-mathematica/volume-227/issue-1/The-KPZ-fixed-point/10.4310/ACTA.2021.v227.n1.a3.full" target="_blank">link</a>
-                    The KPZ fixed point 
+                    The KPZ fixed point, K. Matetski, J. Quastel, and D. Remenik
                     <div id="abstract2" class="abstract">
-                        An explicit Fredholm determinant formula is derived for the multipoint distribution of the height function of the totally asymmetric simple exclusion process (TASEP) with arbitrary initial condition. Through an analysis of this formula in the KPZ 1:2:3 scaling limit we prove convergence of the TASEP height function to a universal Markov process with initial data, the KPZ fixed point, whose one-point distributions are the GUE Tracy-Widom distribution or generalizations thereof depending on the initial data. (arXiv:1701.00018)
+                        An explicit Fredholm determinant formula is derived for the multipoint distribution of the height function of the totally asymmetric simple exclusion process (TASEP) with arbitrary right-finite initial condition. The method is by solving the biorthogonal ensemble/non-intersecting path representation found by [Sas05; BFPS07]. The resulting kernel involves transition probabilities of a random walk forced to hit a curve defined by the initial data.
+In the KPZ 1:2:3 scaling limit the formula leads in a transparent way to a Fredholm determinant formula, in terms of analogous kernels based on Brownian motion, for the transition probabilities of the scaling invariant Markov process at the centre of the KPZ universality class. The formula readily reproduces known special self-similar solutions such as the Airy1 and Airy2 processes. The process takes values in real valued functions which look locally like Brownian motion, and is Hölder 1/3− in time.
+Both the KPZ fixed point and TASEP are shown to be stochastic integrable systems in the sense that the time evolution of their transition probabilities can be linearized through a new Brownian scattering transform and its discrete analogue.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract3')">
                     (3) <a href="https://projecteuclid.org/journals/acta-mathematica/volume-229/issue-2/The-directed-landscape/10.4310/ACTA.2022.v229.n2.a1.full" target="_blank">link</a>
-                    The directed landscape 
+                    The directed landscape, D. Dauvergne, J. Ortmann, and B. Virág
                     <div id="abstract3" class="abstract">
-                        We study the directed landscape, a random continuous function \(L: \mathbb{R}^4 \to \mathbb{R}\) which is expected to be the scaling limit of last passage percolation models and is conjectured to be the universal scaling limit of all models in the KPZ universality class. Using purely probabilistic arguments we prove some fundamental properties of \(L\), including a connection to the Airy sheet and the non-existence of bi-infinite geodesics. (arXiv:1812.00309)
+                       The conjectured limit of last passage percolation is a scale-invariant, independent, stationary increment process with respect to metric composition. We prove this for Brownian last passage percolation. We construct the Airy sheet and characterize it in terms of the Airy line ensemble. We also show that last passage geodesics converge to random functions with Holder-2/3- continuous paths. This work completes the construction of the central object in the Kardar-Parisi-Zhang universality class, the directed landscape.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract4')">
                     (4) <a href="https://projecteuclid.org/journals/annals-of-probability/volume-52/issue-1/The-stationary-horizon-and-semi-infinite-geodesics-in-the-directed/10.1214/23-AOP1655.short" target="_blank">link</a>
-                    The stationary horizon and semi-infinite geodesics in the directed landscape 
+                    The stationary horizon and semi-infinite geodesics in the directed landscape, O. Busani, T. Seppäläinen, and E. Sorensen
                     <div id="abstract4" class="abstract">
-                        The directed landscape is a random continuous function from \(\mathbb{R}^4\) to \(\mathbb{R}\) that arises as a universal scaling limit for models in the Kardar-Parisi-Zhang (KPZ) universality class. We study semi-infinite geodesics in the directed landscape, which are geodesic rays parameterized by \(\mathbb{R}\) that emanate from every space-time point in every direction \(\theta \in \mathbb{R}\). Specifically, we establish existence, uniqueness up to sets of Hausdorff dimension zero, and coalescence of these semi-infinite geodesics as well as formulas for the stationary horizon—a process that arises as a limit of Busemann functions—which altogether yield a complete characterization of the geodesic structure of the directed landscape. (arXiv:2203.13242)
+                        The stationary horizon (SH) is a stochastic process of coupled Brownian motions indexed by their real-valued drifts. It was first introduced by the first author as the diffusive scaling limit of the Busemann process of exponential last-passage percolation. It was independently discovered as the Busemann process of Brownian last-passage percolation by the second and third authors. We show that SH is the unique invariant distribution and an attractor of the KPZ fixed point under conditions on the asymptotic spatial slopes. It follows that SH describes the Busemann process of the directed landscape. This gives control of semi-infinite geodesics simultaneously across all initial points and directions. The countable dense set Ξ of directions of discontinuity of the Busemann process is the set of directions in which not all geodesics coalesce and in which there exist at least two distinct geodesics from each initial point. This creates two distinct families of coalescing geodesics in each Ξ direction. In Ξ directions, the Busemann difference profile is distributed like Brownian local time. We describe the point process of directions ξ∈Ξ and spatial locations where the ξ± Busemann functions separate.
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract5')">
                     (5) <a href="https://link.springer.com/article/10.1007/s00222-024-01277-x" target="_blank">link</a>
-                    Stationary measures for integrable polymers on a strip 
+                    Stationary measures for integrable polymers on a strip, G. Barraquand, I. Corwin, and Z. Yang
                     <div id="abstract5" class="abstract">
-                        We consider discrete integrable polymer models on a strip \(\mathbb{Z}\times \{1,\dots,N\}\), where the weights are given by inverse-gamma random variables. We construct stationary measures for these models via boundary conditions involving Askey-Wilson signed measures and show that these measures converge under suitable scaling to stationary measures for the \(O(n)\) polymer on a strip for \(n=-1,0,1\). We furthermore identify these measures explicitly via their moments thus providing a new boundary characterization of the stochastic six-vertex model and the ASEP in an interval. (arXiv:2306.05983)
+                       We prove that the stationary measures for the free-energy increment process for the geometric last passage percolation (LPP) and log-gamma polymer model on a diagonal strip is given by a marginal of a two-layer Gibbs measure with a simple and explicit description. This result is shown subject to certain restrictions on the parameters controlling the weights on the boundary of the strip. However, from this description and an analytic continuation argument we are able to access the stationary measure for all boundary parameters. Taking an intermediate disorder limit of the log-gamma polymer stationary measure in a strip we readily recover (modulo convergence of the polymer to the open KPZ equation, Conjecture 4.2) the conjectural description from arXiv:2105.15178 of the open KPZ stationary measure for all choices of boundary parameters u,v∈R (thus going beyond the restriction u+v≥0 from arXiv:2103.12253).
                     </div>
                 </li>
                 <li onclick="toggleAbstract('abstract6')">
                     (6) <a href="https://arxiv.org/abs/2308.11908" target="_blank">link</a>
-                    Strong Characterization for the Airy Line Ensemble 
+                    Strong Characterization for the Airy Line Ensemble, A. Aggarwal and J. Huang
                     <div id="abstract6" class="abstract">
-                        The Airy line ensemble \(\mathcal{A} = (\mathcal{A}_1, \mathcal{A}_2, \ldots)\) is a collection of random continuous functions from \(\mathbb{R}\) to \(\mathbb{R}\), which appears as a universal scaling limit of stochastic growth models and random matrix ensembles in the KPZ universality class. In this note, we provide a strong characterization of this ensemble via two properties: the Brownian Gibbs property and a characterization of the top line \(\mathcal{A}_1\) via the Airy\(_2\) process. We prove that any line ensemble satisfying these two properties must be equal in distribution to \(\mathcal{A}\).
+                     In this paper we show that a Brownian Gibbsian line ensemble whose top curve approximates a parabola must be given by the parabolic Airy line ensemble. More specifically, we prove that if L=(L1,L2,…) is a line ensemble satisfying the Brownian Gibbs property, such that for any ε>0 there exists a constant K(ε)>0 with
+P[∣∣L1(t)+2−1/2t2∣∣≤εt2+K(ε)]≥1−ε,for all t∈R,
+then L is the parabolic Airy line ensemble, up to an independent affine shift. Specializing this result to the case when L(t)+2−1/2t2 is translation-invariant confirms a prediction of Okounkov and Sheffield from 2006 and Corwin-Hammond from 2014.
                     </div>
                 </li>
             </ul>
@@ -133,327 +136,81 @@
         <section id="others">
             <h2>Others</h2>
             <ul id="others-resource-list">
-                <li onclick="toggleAbstract('abstract7')">
+                <li>
                     (1) <a href="https://arxiv.org/abs/2402.06868" target="_blank">link</a>
-                    Colored Line Ensembles for Stochastic Vertex Models 
-                    <div id="abstract7" class="abstract">
-                        We construct a family of colored line ensembles associated to stochastic vertex models using the infinite volume limit of stochastic difference operators arising from the Yang-Baxter equation. These ensembles satisfy a colored version of the Brownian Gibbs property, and we prove that their top lines converge to the Airy line ensemble under KPZ scaling. This provides a new perspective on multi-species integrable systems within the KPZ universality class.
-                    </div>
+                    Colored Line Ensembles for Stochastic Vertex Models, A. Aggarwal and A. Borodin
                 </li>
-                <li onclick="toggleAbstract('abstract8')">
+                <li>
                     (2) <a href="https://arxiv.org/abs/2412.18117" target="_blank">link</a>
-                    KPZ fixed point convergence of the ASEP and stochastic six-vertex models 
-                    <div id="abstract8" class="abstract">
-                        We prove that the height functions of the asymmetric simple exclusion process (ASEP) and the stochastic six-vertex model converge to the KPZ fixed point under \(\frac{1}{3}\)-scaling for arbitrary initial conditions. This is achieved through exact solvability via the coordinate Bethe ansatz, confirming the universality of the KPZ fixed point across these lattice models.
-                    </div>
+                    KPZ fixed point convergence of the ASEP and stochastic six-vertex models, A. Aggarwal, I. Corwin, and M. Hegde
                 </li>
-                <li onclick="toggleAbstract('abstract9')">
+                <li>
                     (3) <a href="https://arxiv.org/abs/2403.01341" target="_blank">link</a>
-                    Scaling limit of the colored ASEP and stochastic six-vertex models 
-                    <div id="abstract9" class="abstract">
-                        We study the scaling limit of the colored ASEP and stochastic six-vertex models under weak asymmetry scaling. Using multi-species integrability and stochastic duality, we show convergence to a system of coupled KPZ equations, providing explicit formulas for the limiting height functions and their correlations.
-                    </div>
+                    Scaling limit of the colored ASEP and stochastic six-vertex models, A. Aggarwal, I. Corwin, and M. Hegde
                 </li>
-                <li onclick="toggleAbstract('abstract10')">
-                    (4) <a href="https://arxiv.org/abs/2309.11865" target="_blank">link</a>
-                    Colored Interacting Particle Systems on the Ring: Stationary Measures from Yang–Baxter Equation 
-                    <div id="abstract10" class="abstract">
-                        We study stationary measures of colored interacting particle systems on a ring, such as the multi-species TASEP and ASEP. Using the Yang-Baxter equation, we construct these measures explicitly in terms of quantum group representations, revealing their combinatorial structure and connections to the KPZ universality class.
-                    </div>
+                <li>
+                    (4) <a href="https://arxiv.org/abs/2408.16585" target="_blank">link</a>
+                    ASEP via Mallows coloring, A. Borodin and A. Bufetov
                 </li>
-                <li onclick="toggleAbstract('abstract11')">
-                    (5) <a href="https://arxiv.org/abs/2408.16585" target="_blank">link</a>
-                    ASEP via Mallows coloring 
-                    <div id="abstract11" class="abstract">
-                        We introduce a new representation of the asymmetric simple exclusion process (ASEP) via Mallows coloring, a probabilistic coloring scheme based on the Mallows measure. This approach provides novel insights into the stationary distribution and convergence rates, bridging ASEP with random permutation statistics in the KPZ context.
-                    </div>
+                <li>
+                    (5) <a href="https://arxiv.org/abs/2402.09892" target="_blank">link</a>
+                    Mallows Product Measure, A. Bufetov and K. Chen
                 </li>
-                <li onclick="toggleAbstract('abstract12')">
-                    (6) <a href="https://arxiv.org/abs/2402.09892" target="_blank">link</a>
-                    Mallows Product Measure 
-                    <div id="abstract12" class="abstract">
-                        We define the Mallows product measure, a probability measure on permutations derived from the Mallows distribution, and explore its properties in the context of multi-species stochastic processes. This measure emerges naturally in particle systems and offers a unified framework for analyzing KPZ-class dynamics.
-                    </div>
+                <li>
+                    (6) <a href="https://arxiv.org/abs/2403.01624" target="_blank">link</a>
+                    Pinched-up periodic KPZ fixed point, J. Baik and Z. Liu
                 </li>
-                <li onclick="toggleAbstract('abstract13')">
-                    (7) <a href="https://arxiv.org/abs/2403.01624" target="_blank">link</a>
-                    Pinched-up periodic KPZ fixed point 
-                    <div id="abstract13" class="abstract">
-                        We study the periodic KPZ fixed point under a pinching transformation, deriving its exact one-point distribution via Fredholm determinants. This extends the understanding of periodic boundary conditions in the KPZ universality class, showing consistency with KPZ scaling laws.
-                    </div>
+                <li>
+                    (7) <a href="https://arxiv.org/abs/2401.00513" target="_blank">link</a>
+                    Non-existence of three non-coalescing infinite geodesics with the same direction in the directed landscape, O. Busani
                 </li>
-                <li onclick="toggleAbstract('abstract14')">
-                    (8) <a href="https://arxiv.org/abs/2008.07024" target="_blank">link</a>
-                    Limiting one-point distribution of periodic TASEP 
-                    <div id="abstract14" class="abstract">
-                        We compute the exact one-point distribution of the height function in the periodic totally asymmetric simple exclusion process (TASEP) using Bethe ansatz techniques. Under \(\frac{1}{3}\)-scaling, we show convergence to a universal limit consistent with the KPZ universality class.
-                    </div>
+                <li>
+                    (8) <a href="https://arxiv.org/abs/2407.02415" target="_blank">link</a>
+                    The Symplectic Schur Process, C. Cuenca and M. Mucciconi
                 </li>
-                <li onclick="toggleAbstract('abstract15')">
-                    (9) <a href="https://arxiv.org/abs/2208.11638" target="_blank">link</a>
-                    Differential equations for the KPZ and periodic KPZ fixed points 
-                    <div id="abstract15" class="abstract">
-                        We derive differential equations that characterize the KPZ and periodic KPZ fixed points, offering a new stochastic PDE perspective on these universal objects. The equations are solved exactly, reinforcing their role in the KPZ universality class.
-                    </div>
+                <li>
+                    (9) <a href="https://arxiv.org/abs/2403.02479" target="_blank">link</a>
+                    Arctic curves of the T-system with slanted initial data, P. Di Francesco and H. T. P. Vu
                 </li>
-                <li onclick="toggleAbstract('abstract16')">
-                    (10) <a href="https://arxiv.org/abs/2308.03473" target="_blank">link</a>
-                    Time correlations in KPZ models with diffusive initial conditions 
-                    <div id="abstract16" class="abstract">
-                        We investigate time correlations in KPZ models starting from diffusive initial conditions. Using asymptotic analysis, we derive correlation functions that align with the expected behavior in the KPZ universality class.
-                    </div>
+                <li>
+                    (10) <a href="https://arxiv.org/abs/2403.17895" target="_blank">link</a>
+                    Global asymptotics for β-Krawtchouk corners processes via multilevel loop equations, E. Dimitrov and A. Knizel
                 </li>
-                <li onclick="toggleAbstract('abstract17')">
-                    (11) <a href="https://arxiv.org/abs/2401.00513" target="_blank">link</a>
-                    Non-existence of three non-coalescing infinite geodesics with the same direction in the directed landscape 
-                    <div id="abstract17" class="abstract">
-                        We prove that in the directed landscape, it is impossible to have three non-coalescing infinite geodesics with the same direction. This result strengthens the coalescence properties of geodesics in the KPZ universality class.
-                    </div>
+                <li>
+                    (11) <a href="https://arxiv.org/abs/2406.06502" target="_blank">link</a>
+                    Viscous shock fluctuations in KPZ, A. Dunlap and E. Sorensen
                 </li>
-                <li onclick="toggleAbstract('abstract18')">
-                    (12) <a href="https://arxiv.org/abs/1108.2291" target="_blank">link</a>
-                    Brownian Gibbs property for Airy line ensembles 
-                    <div id="abstract18" class="abstract">
-                        We establish that the Airy line ensemble satisfies a Brownian Gibbs property, behaving as a system of non-intersecting Brownian bridges. This property is fundamental to its role as a universal limit in the KPZ universality class.
-                    </div>
+                <li>
+                    (12) <a href="https://arxiv.org/abs/2412.13032" target="_blank">link</a>
+                    Characterization of the directed landscape from the KPZ fixed point, D. Dauvergne and L. Zhang
                 </li>
-                <li onclick="toggleAbstract('abstract19')">
-                    (13) <a href="https://arxiv.org/abs/1312.2600" target="_blank">link</a>
-                    KPZ line ensemble 
-                    <div id="abstract19" class="abstract">
-                        We construct the KPZ line ensemble, a collection of random curves with a Gibbs resampling property, and prove its convergence to the Airy line ensemble under KPZ scaling. This ensemble is a key object in understanding KPZ universality.
-                    </div>
+                <li>
+                    (13) <a href="https://arxiv.org/abs/2404.16801" target="_blank">link</a>
+                    The Directed Landscape is a Black Noise, Z. Himwich and S. Parekh
                 </li>
-                <li onclick="toggleAbstract('abstract20')">
-                    (14) <a href="https://arxiv.org/abs/2101.04205" target="_blank">link</a>
-                    Exceptional times when the KPZ fixed point violates Johansson's conjecture on maximizer uniqueness 
-                    <div id="abstract20" class="abstract">
-                        We identify exceptional times where the KPZ fixed point exhibits multiple maximizers, contradicting Johansson's conjecture on uniqueness. This is analyzed probabilistically, revealing rare events in the KPZ universality class.
-                    </div>
+                <li>
+                    (14) <a href="https://arxiv.org/abs/2408.15785" target="_blank">link</a>
+                    Asymptotics of dynamic ASEP using duality, J. Kuan and Z. Zhou
                 </li>
-                <li onclick="toggleAbstract('abstract21')">
-                    (15) <a href="https://arxiv.org/abs/2407.02415" target="_blank">link</a>
-                    The Symplectic Schur Process 
-                    <div id="abstract21" class="abstract">
-                        We introduce the symplectic Schur process, an integrable system related to KPZ-class models. We derive its correlation functions using symplectic Schur functions, providing a new tool for studying stochastic growth.
-                    </div>
+                <li>
+                    (15) <a href="https://arxiv.org/abs/2501.00932" target="_blank">link</a>
+                    An upper tail field of the KPZ fixed point, Z. Liu and R. Zhang
                 </li>
-                <li onclick="toggleAbstract('abstract22')">
-                    (16) <a href="https://arxiv.org/abs/1106.1596" target="_blank">link</a>
-                    The Kardar-Parisi-Zhang equation and universality class 
-                    <div id="abstract22" class="abstract">
-                        Brownian motion with a short-range correlated random drift is shown to have \(\frac{1}{3}\) KPZ height fluctuation exponent and \(\frac{2}{3}\) transversal displacement exponent in \(1+1\) dimensions, placing it in the KPZ universality class along with many other stochastic growth models and driven interacting particle systems. We survey these models, their exact solutions and scaling exponents, along with experimental confirmations of KPZ universality.
-                    </div>
+                <li>
+                    (16) <a href="https://arxiv.org/abs/2407.21653" target="_blank">link</a>
+                    Grothendieck Shenanigans: Permutons from pipe dreams via integrable probability, A.H. Morales, G. Panova, L. Petrov, and D. Yeliussizov
                 </li>
-                <li onclick="toggleAbstract('abstract23')">
-                    (17) <a href="https://arxiv.org/abs/2403.02479" target="_blank">link</a>
-                    Arctic curves of the T-system with slanted initial data 
-                    <div id="abstract23" class="abstract">
-                        We investigate arctic curves in the T-system with slanted initial data, deriving their exact shapes using integrable methods. These curves have implications for understanding phase boundaries in KPZ-related growth models.
-                    </div>
+                <li>
+                    (17) <a href="https://arxiv.org/abs/2404.19215" target="_blank">link</a>
+                    An invariance principle of 1D KPZ with Robin boundary conditions, Y. Tang
                 </li>
-                <li onclick="toggleAbstract('abstract24')">
-                    (18) <a href="https://arxiv.org/abs/2403.17895" target="_blank">link</a>
-                    Global asymptotics for β-Krawtchouk corners processes via multilevel loop equations 
-                    <div id="abstract24" class="abstract">
-                        We derive global asymptotics for \(\beta\)-Krawtchouk corners processes using multilevel loop equations. These results connect to KPZ-class limits under appropriate scaling, offering a new perspective on random matrix-like structures.
-                    </div>
+                <li>
+                    (18) <a href="https://arxiv.org/abs/2406.07150" target="_blank">link</a>
+                    Partial yet definite emergence of the Kardar-Parisi-Zhang class in isotropic spin chains, K. A. Takeuchi, K. Takasan, O. Busani, P. L. Ferrari, R. Vasseur, and J. De Nardis
                 </li>
-                <li onclick="toggleAbstract('abstract25')">
-                    (19) <a href="https://arxiv.org/abs/2307.01179" target="_blank">link</a>
-                    Large deviations for the q-deformed polynuclear growth 
-                    <div id="abstract25" class="abstract">
-                        We establish large deviation principles for the \(q\)-deformed polynuclear growth model, deriving explicit rate functions that confirm its behavior within the KPZ universality class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract26')">
-                    (20) <a href="https://arxiv.org/abs/2406.06502" target="_blank">link</a>
-                    Viscous shock fluctuations in KPZ 
-                    <div id="abstract26" class="abstract">
-                        We analyze fluctuations of viscous shocks in the KPZ equation, characterizing their statistical properties and demonstrating their consistency with the KPZ fixed point under suitable conditions.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract27')">
-                    (21) <a href="https://arxiv.org/abs/2412.13032" target="_blank">link</a>
-                    Characterization of the directed landscape from the KPZ fixed point 
-                    <div id="abstract27" class="abstract">
-                        We provide a new characterization of the directed landscape as a functional of the KPZ fixed point, establishing a direct probabilistic link between these two universal objects in the KPZ universality class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract28')">
-                    (22) <a href="https://arxiv.org/abs/2209.03531" target="_blank">link</a>
-                    Orthogonal polynomial duality and unitary symmetries of multi-species ASEP(q, θ) and higher-spin vertex models 
-                    <div id="abstract28" class="abstract">
-                        We uncover unitary symmetries in multi-species ASEP(\(q, \theta\)) and higher-spin vertex models using orthogonal polynomial duality, derived from the \(\ast\)-bialgebra structure of higher-rank quantum groups, with implications for KPZ-class systems.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract29')">
-                    (23) <a href="https://arxiv.org/abs/2309.17276" target="_blank">link</a>
-                    Jointly invariant measures for the Kardar-Parisi-Zhang Equation 
-                    <div id="abstract29" class="abstract">
-                        We construct jointly invariant measures for the KPZ equation that couple spatial and temporal statistics, verifying their consistency with the KPZ universality class through probabilistic techniques.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract30')">
-                    (24) <a href="https://arxiv.org/abs/1109.6811" target="_blank">link</a>
-                    Solving the KPZ equation 
-                    <div id="abstract30" class="abstract">
-                        We provide a mathematically rigorous construction of solutions to the KPZ equation \(\partial_t h = \frac{1}{2}\partial_x^2 h + \frac{1}{2} (\partial_x h)^2 + \xi\) where \(\xi\) is space-time white noise, using the theory of regularity structures to handle the equation's ill-posedness and confirm its \(\frac{1}{3}\) scaling exponent.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract31')">
-                    (25) <a href="https://arxiv.org/abs/2404.16801" target="_blank">link</a>
-                    The Directed Landscape is a Black Noise 
-                    <div id="abstract31" class="abstract">
-                        We demonstrate that the directed landscape possesses the characteristics of a black noise, a non-Gaussian stochastic process, enhancing its theoretical connection to the KPZ universality class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract32')">
-                    (26) <a href="https://arxiv.org/abs/2204.08420" target="_blank">link</a>
-                    Solvable models in the KPZ class: approach through periodic and free boundary Schur measures 
-                    <div id="abstract32" class="abstract">
-                        We develop exactly solvable models in the KPZ universality class using periodic and free boundary Schur measures, deriving precise formulas for height fluctuations via integrable techniques.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract33')">
-                    (27) <a href="https://arxiv.org/abs/2211.06779" target="_blank">link</a>
-                    Ergodicity and synchronization of the KPZ equation 
-                    <div id="abstract33" class="abstract">
-                        We establish ergodicity and synchronization properties for the KPZ equation under specific noise conditions, providing a rigorous link between its long-time behavior and invariant measures.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract34')">
-                    (28) <a href="https://arxiv.org/abs/2408.15785" target="_blank">link</a>
-                    Asymptotics of dynamic ASEP using duality 
-                    <div id="abstract34" class="abstract">
-                        We derive asymptotic behaviors of the dynamic ASEP using stochastic duality, obtaining exact formulas for height fluctuations under various initial conditions, consistent with KPZ universality.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract35')">
-                    (29) <a href="https://arxiv.org/abs/2308.05372" target="_blank">link</a>
-                    Contour integral formulas for PushASEP on the ring 
-                    <div id="abstract35" class="abstract">
-                        We derive contour integral formulas for the PushASEP on a ring, solving its transition probabilities exactly and establishing its connection to KPZ-class dynamics.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract36')">
-                    (30) <a href="https://arxiv.org/abs/2009.10787" target="_blank">link</a>
-                    Short time large deviations of the KPZ equation 
-                    <div id="abstract36" class="abstract">
-                        We prove a short-time large deviation principle for the KPZ equation \(\partial_t h = \frac{1}{2} \partial_x^2 h + \frac{1}{2} (\partial_x h)^2 + \xi\) with \(\xi\) white in space and time, computing its rate function explicitly and verifying KPZ universality predictions.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract37')">
-                    (31) <a href="https://arxiv.org/abs/2501.00932" target="_blank">link</a>
-                    An upper tail field of the KPZ fixed point 
-                    <div id="abstract37" class="abstract">
-                        We construct an upper tail field for the KPZ fixed point, characterizing its extreme value statistics and providing new insights into its role within the KPZ universality class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract38')">
-                    (32) <a href="https://arxiv.org/abs/2407.21653" target="_blank">link</a>
-                    Grothendieck Shenanigans: Permutons from pipe dreams via integrable probability 
-                    <div id="abstract38" class="abstract">
-                        We explore permutons derived from pipe dreams using integrable probability techniques, connecting Grothendieck polynomials to KPZ-class stochastic processes and their scaling limits.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract39')">
-                    (33) <a href="https://arxiv.org/abs/2301.13739" target="_blank">link</a>
-                    Exact solution of TASEP and variants with inhomogeneous speeds and memory lengths 
-                    <div id="abstract39" class="abstract">
-                        We provide an exact solution for TASEP and its variants with inhomogeneous speeds and memory lengths, deriving transition probabilities via integrable methods and confirming their KPZ-class behavior.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract40')">
-                    (34) <a href="https://arxiv.org/abs/1908.10353" target="_blank">link</a>
-                    KP governs random growth off a 1-dimensional substrate 
-                    <div id="abstract40" class="abstract">
-                        We prove that the KPZ equation governs random growth processes off a 1-dimensional substrate, establishing its universality across a variety of stochastic models through rigorous probabilistic analysis.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract41')">
-                    (35) <a href="https://arxiv.org/abs/2205.01433" target="_blank">link</a>
-                    Integrable fluctuations in the KPZ universality class 
-                    <div id="abstract41" class="abstract">
-                        We review recent progress on integrable fluctuations in the KPZ universality class, focusing on exact solutions for height fluctuations and their universal statistical properties across various models.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract42')">
-                    (36) <a href="https://arxiv.org/abs/2308.11347" target="_blank">link</a>
-                    Independence property of the Busemann function in exactly solvable KPZ models 
-                    <div id="abstract42" class="abstract">
-                        We establish an independence property for Busemann functions in exactly solvable KPZ models, showing that geodesic behaviors exhibit statistical independence under certain conditions.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract43')">
-                    (37) <a href="https://arxiv.org/abs/2404.19215" target="_blank">link</a>
-                    An invariance principle of 1D KPZ with Robin boundary conditions 
-                    <div id="abstract43" class="abstract">
-                        We prove an invariance principle for the 1D KPZ equation with Robin boundary conditions, demonstrating convergence to a universal limit consistent with the KPZ universality class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract44')">
-                    (38) <a href="https://arxiv.org/abs/1809.03410" target="_blank">link</a>
-                    Exact lower-tail large deviations of the KPZ equation 
-                    <div id="abstract44" class="abstract">
-                        For the KPZ equation with narrow wedge initial condition, we determine the exact lower-tail large deviation rate function by studying its Cole-Hopf solution, the stochastic heat equation (SHE) with a Dirac delta initial condition, providing \(\lim_{t\to\infty} t^{-1} \log \mathbb{P}(h(t,0) \leq -s t) = -\Psi(s)\) for \(s > 0\) and an explicit \(\Psi\).
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract45')">
-                    (39) <a href="https://arxiv.org/abs/2406.07150" target="_blank">link</a>
-                    Partial yet definite emergence of the Kardar-Parisi-Zhang class in isotropic spin chains 
-                    <div id="abstract45" class="abstract">
-                        We demonstrate the partial yet definite emergence of KPZ-class behavior in isotropic spin chains, identifying scaling exponents through numerical simulations and analytical arguments, bridging condensed matter and stochastic growth.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract46')">
-                    (40) <a href="https://arxiv.org/abs/2301.00547" target="_blank">link</a>
-                    The KPZ equation and the directed landscape 
-                    <div id="abstract46" class="abstract">
-                        We explore the deep connection between the KPZ equation and the directed landscape, providing a unified framework for understanding their scaling limits and universal properties in the KPZ class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract47')">
-                    (41) <a href="https://arxiv.org/abs/2406.09252" target="_blank">link</a>
-                    From asymmetric simple exclusion processes with open boundaries to stationary measures of open KPZ fixed point: the shock region 
-                    <div id="abstract47" class="abstract">
-                        We derive stationary measures for the open KPZ fixed point from ASEP with open boundaries, focusing on the shock region and establishing their universal statistical properties within the KPZ class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract48')">
-                    (42) <a href="https://arxiv.org/abs/2107.06350" target="_blank">link</a>
-                    Shift-invariance of the colored TASEP and finishing times of the oriented swap process 
-                    <div id="abstract48" class="abstract">
-                        We prove the shift-invariance of the colored TASEP and compute the finishing times of the oriented swap process, establishing their connections to KPZ-class dynamics through probabilistic and combinatorial methods.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract49')">
-                    (43) <a href="https://arxiv.org/abs/2208.11638" target="_blank">link</a>
-                    Differential equations for the KPZ and periodic KPZ fixed points 
-                    <div id="abstract49" class="abstract">
-                        We derive differential equations that characterize the KPZ and periodic KPZ fixed points, offering a new stochastic PDE perspective on these universal objects. The equations are solved exactly, reinforcing their role in the KPZ universality class.
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract50')">
-                    (44) <a href="https://doi.org/10.1063/5.0154249" target="_blank">link</a>
-                    New approach to KPZ models through free fermions at positive temperature 
-                    <div id="abstract50" class="abstract">
-                        unavailable
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract51')">
-                    (45) <a href="https://doi.org/10.1103/PhysRevLett.56.889" target="_blank">link</a>
-                    Dynamic scaling of growing interfaces 
-                    <div id="abstract51" class="abstract">
-                        unavailable
-                    </div>
-                </li>
-                <li onclick="toggleAbstract('abstract52')">
-                    (46) <a href="https://doi.org/10.1007/s00220-024-05104-8" target="_blank">link</a>
-                    Rewriting History in Integrable Stochastic Particle Systems 
-                    <div id="abstract52" class="abstract">
-                        unavailable
-                    </div>
+                <li>
+                    (19) <a href="https://arxiv.org/abs/2406.09252" target="_blank">link</a>
+                    From asymmetric simple exclusion processes with open boundaries to stationary measures of open KPZ fixed point: the shock region, Y. Wang and Z. Yang
                 </li>
             </ul>
         </section>
