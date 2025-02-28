@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
         { title: "NA", date: "2025-03-10", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
         { title: "NA", date: "2025-03-24", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
         { title: "NA", date: "2025-03-31", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-07", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-14", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-21", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-04-28", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
+        { title: "NA", date: "2025-05-05", abstract: "Abstract: NA", room: "TBA", time: "4:00 PM" },
     ];
 
     const now = new Date();
