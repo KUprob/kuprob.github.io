@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
+    console.log("script.js loaded and DOMContentLoaded fired");
+
     const events = [
         { title: "NA", date: "2025-01-10", abstract: "Abstract: NA", room: "Room 101" },
         { title: "NA", date: "2025-02-05", abstract: "Abstract: NA", room: "Room 202" },
@@ -14,8 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const futureEvents = events.filter(event => new Date(event.date) >= now).slice(0, 3);
 
     function renderEvents(eventList, elementId) {
+        console.log(`Rendering events for ${elementId}`);
         const ul = document.getElementById(elementId);
-        ul.innerHTML = "";
+        if (!ul) {
+            console.error(`Element with ID '${elementId}' not found`);
+            return;
+        }
+        ul.innerHTML = ""; // Clear existing content
         eventList.forEach((event, index) => {
             const li = document.createElement("li");
             const abstractId = `${elementId}-abstract${index + 1}`;
@@ -31,12 +38,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 toggleAbstract(abstractId);
             });
         });
+        console.log(`${eventList.length} events rendered for ${elementId}`);
     }
 
-    // Populate index.html
+    // Render events for index.html
     renderEvents(futureEvents, "future-events");
     renderEvents(pastEvents, "past-events-list");
 
-    // Populate all-events.html with all events
+    // Render events for all-events.html
     renderEvents(events, "all-events-list");
 });
