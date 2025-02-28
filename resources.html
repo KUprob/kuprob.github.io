@@ -1,8 +1,77 @@
-<header>
-        <h1>All Events</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .resource-list {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .resource-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .resource-item h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .resource-item a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .resource-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resources</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="resource-list">
+        <div class="resource-item">
+            <h2>Learn HTML & CSS</h2>
+            <p>A comprehensive guide to building websites with HTML and CSS.</p>
+            <p><a href="https://www.w3schools.com/html/" target="_blank">Visit Resource</a></p>
+        </div>
+        <div class="resource-item">
+            <h2>JavaScript Basics</h2>
+            <p>An interactive tutorial to get started with JavaScript programming.</p>
+            <p><a href="https://javascript.info/" target="_blank">Visit Resource</a></p>
+        </div>
+        <div class="resource-item">
+            <h2>Free Stock Photos</h2>
+            <p>High-quality, royalty-free images for your projects.</p>
+            <p><a href="https://unsplash.com/" target="_blank">Visit Resource</a></p>
+        </div>
+    </section>
+</body>
+</html>
