@@ -16,9 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(`Rendering events for ${elementId}`);
         const ul = document.getElementById(elementId);
         if (!ul) {
-            console.error(`Element with ID '${elementId}' not found`);
-            alert(`Error: Could not find element with ID '${elementId}'. Check your HTML or script setup.`);
-            return;
+            console.warn(`Element with ID '${elementId}' not found on this page`);
+            return; // Silently skip if the element doesn’t exist
         }
         ul.innerHTML = ""; // Clear existing content
         eventList.forEach((event, index) => {
@@ -39,10 +38,14 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(`${eventList.length} events rendered for ${elementId}`);
     }
 
-    // Render events for index.html
-    renderEvents(futureEvents, "future-events");
-    renderEvents(pastEvents, "past-events-list");
-
-    // Render events for all-events.html
-    renderEvents(events, "all-events-list");
+    // Only render if the element exists on the page
+    if (document.getElementById("future-events")) {
+        renderEvents(futureEvents, "future-events");
+    }
+    if (document.getElementById("past-events-list")) {
+        renderEvents(pastEvents, "past-events-list");
+    }
+    if (document.getElementById("all-events-list")) {
+        renderEvents(events, "all-events-list");
+    }
 });
