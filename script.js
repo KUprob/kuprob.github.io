@@ -14,15 +14,26 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     const now = new Date();
-    const pastEvents = events.filter(event => new Date(event.date) < now).slice(-2);
-    const futureEvents = events.filter(event => new Date(event.date) >= now).slice(0, 3);
+    console.log("Current time:", now); // Debug: Check current time
+
+    // Parse event date and time together
+    const pastEvents = events.filter(event => {
+        const eventDateTime = new Date(`${event.date} ${event.time}`);
+        console.log(`Event: ${event.title}, DateTime: ${eventDateTime}`); // Debug: Check event time
+        return eventDateTime < now;
+    }).slice(-2);
+
+    const futureEvents = events.filter(event => {
+        const eventDateTime = new Date(`${event.date} ${event.time}`);
+        return eventDateTime >= now;
+    }).slice(0, 3);
 
     function renderEvents(eventList, elementId) {
         console.log(`Rendering events for ${elementId}`);
         const ul = document.getElementById(elementId);
         if (!ul) {
             console.warn(`Element with ID '${elementId}' not found on this page`);
-            return; // Silently skip if the element doesn’t exist
+            return;
         }
         ul.innerHTML = ""; // Clear existing content
         eventList.forEach((event, index) => {
@@ -43,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(`${eventList.length} events rendered for ${elementId}`);
     }
 
-    // Only render if the element exists on the page
     if (document.getElementById("future-events")) {
         renderEvents(futureEvents, "future-events");
     }
