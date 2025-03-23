@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const events = [
         { title: "Planning", date: "2025-03-03", abstract: "We will make the plan for the semester.", room: "Snow 256", time: "4:00 PM" },
         { title: "Zhipeng Liu", date: "2025-03-10", abstract: "An upper tail field of the KPZ fixed point. Zhipeng Liu and Ruixuan Zhang", room: "Snow 256", time: "4:00 PM" },
-        { title: "NA", date: "2025-03-24", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "Parham Haghshenas", date: "2025-03-24", abstract: "Beta ensembles, stochastic Airy spectrum, and a diffusion, J.A.Ramírez, B. Rider, and B. Virág", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-03-31", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-04-07", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-04-14", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
