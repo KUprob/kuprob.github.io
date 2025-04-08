@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { title: "Parham Haghshenas", date: "2025-03-24", abstract: "Beta ensembles, stochastic Airy spectrum, and a diffusion, J.A.Ramírez, B. Rider, and B. Virág", room: "Snow 256", time: "4:00 PM" },
         { title: "Cancelled", date: "2025-03-31", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
         { title: "Aaron Ortiz", date: "2025-04-07", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },
-        { title: "NA", date: "2025-04-14", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "Aaron Ortiz", date: "2025-04-14", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-04-21", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-04-28", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-05-05", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
