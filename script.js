@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { title: "Aaron Ortiz", date: "2025-04-07", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },
         { title: "Cancelled", date: "2025-04-14", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
         { title: "Aaron Ortiz", date: "2025-04-21", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },        
-        { title: "NA", date: "2025-04-28", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
+        { title: "Cancelled", date: "2025-04-28", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
         { title: "NA", date: "2025-05-05", abstract: "Abstract: NA", room: "Snow 256", time: "4:00 PM" },
     ];
 
