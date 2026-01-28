@@ -1,15 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("script.js loaded and DOMContentLoaded fired");
 
-    const events = [
-        { title: "Planning", date: "2025-03-03", abstract: "We will make the plan for the semester.", room: "Snow 256", time: "4:00 PM" },
-        { title: "Zhipeng Liu", date: "2025-03-10", abstract: "An upper tail field of the KPZ fixed point. Zhipeng Liu and Ruixuan Zhang", room: "Snow 256", time: "4:00 PM" },
-        { title: "Parham Haghshenas", date: "2025-03-24", abstract: "Beta ensembles, stochastic Airy spectrum, and a diffusion, J.A.Ramírez, B. Rider, and B. Virág", room: "Snow 256", time: "4:00 PM" },
-        { title: "Cancelled", date: "2025-03-31", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
-        { title: "Aaron Ortiz", date: "2025-04-07", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },
-        { title: "Cancelled", date: "2025-04-14", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
-        { title: "Aaron Ortiz", date: "2025-04-21", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },        
-        { title: "Cancelled", date: "2025-04-28", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
+    const events = [        
         { title: "Zhipeng Liu", date: "2026-01-30", abstract: "KPZ fixed point with a general initial condition of compact support", room: "Zoom meeting", time: "9:00 AM" },
         { title: "TBA", date: "2026-01-30", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
         { title: "TBA", date: "2026-02-06", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
