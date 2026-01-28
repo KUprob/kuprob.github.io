@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { title: "Cancelled", date: "2025-04-14", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
         { title: "Aaron Ortiz", date: "2025-04-21", abstract: "Directed landscape", room: "Snow 256", time: "4:00 PM" },        
         { title: "Cancelled", date: "2025-04-28", abstract: "NA", room: "Snow 256", time: "4:00 PM" },
-        { title: "Zhipeng Liu", date: "2026-01-30", abstract: "KPZ fixed point with a general initial condition of compact support", room: "Zoom: 899 7535 2143, Passcode: 1234", time: "9:00 AM" },
+        { title: "Zhipeng Liu", date: "2026-01-30", abstract: "KPZ fixed point with a general initial condition of compact support", room: "Zoom 899 7535 2143, Passcode 1234", time: "9:00 AM" },
     ];
 
     const now = new Date();
