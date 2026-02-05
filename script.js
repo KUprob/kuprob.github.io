@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("script.js loaded and DOMContentLoaded fired");
 
     const events = [        
-        { title: "Zhipeng Liu", date: "2026-01-30", abstract: "KPZ fixed point with a general initial condition of compact support", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "Zhipeng Liu", date: "2026-02-06", abstract: "KPZ fixed point with a general initial condition of compact support, part 2", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-02-13", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-02-20", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-02-27", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-03-06", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-03-13", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-03-20", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
-        { title: "TBA", date: "2026-03-27", abstract: "NA", room: "Zoom meeting", time: "9:00 AM" },
+        { title: "Zhipeng Liu", date: "2026-01-30", abstract: "KPZ fixed point with a general initial condition of compact support", room: "Zoom meeting"},
+        { title: "Zhipeng Liu", date: "2026-02-06", abstract: "KPZ fixed point with a general initial condition of compact support, part 2", room: "Zoom meeting"},
+        { title: "TBA", date: "2026-02-13", abstract: "NA", room: "Zoom meeting" },
+        { title: "TBA", date: "2026-02-20", abstract: "NA", room: "Zoom meeting"},
+        { title: "TBA", date: "2026-02-27", abstract: "NA", room: "Zoom meeting"},
+        { title: "TBA", date: "2026-03-06", abstract: "NA", room: "Zoom meeting"},
+        { title: "TBA", date: "2026-03-13", abstract: "NA", room: "Zoom meeting"},
+        { title: "TBA", date: "2026-03-20", abstract: "NA", room: "Zoom meeting"},
+        { title: "TBA", date: "2026-03-27", abstract: "NA", room: "Zoom meeting"},
     ];
 
     const now = new Date();
