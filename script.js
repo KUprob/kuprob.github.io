@@ -4,11 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     { title: "Zhipeng Liu", date: "2026-02-06", abstract: "KPZ fixed point with a general initial condition of compact support (Part 2)", room: "Zoom meeting" },
     { title: "Aaron Ortiz", date: "2026-02-13", abstract: "Grothendieck polynomials, pipedreams, and the discrete geometric TASEP model (Part 1)", room: "Zoom meeting" },
     { title: "Aaron Ortiz", date: "2026-02-20", abstract: "Grothendieck polynomials, pipedreams, and the discrete geometric TASEP model (Part 2)", room: "Zoom meeting" },
-    { title: "Yechan Hong", date: "2026-02-27", abstract: "Geodesic in the directed last passage percolation", room: "Zoom meeting" },
-    { title: "TBA", date: "2026-03-06", abstract: "NA", room: "Zoom meeting" },
-    { title: "TBA", date: "2026-03-13", abstract: "NA", room: "Zoom meeting" },
-    { title: "TBA", date: "2026-03-20", abstract: "NA", room: "Zoom meeting" },
-    { title: "TBA", date: "2026-03-27", abstract: "NA", room: "Zoom meeting" },
+    { title: "Yechan Hong", date: "2026-02-27", abstract: "Geodesic in the directed last passage percolation", room: "Zoom meeting" },    
+    { title: "Yechan Hong", date: "2026-03-13", abstract: "Geodesic in the directed last passage percolation", room: "Zoom meeting" },
+    { title: "Tejaswi Tripathi", date: "2026-03-27", abstract: "Geodesic in the directed last passage percolation", room: "Zoom meeting" },
   ];
 
   // Parse event date safely at local noon (avoids timezone edge cases)
